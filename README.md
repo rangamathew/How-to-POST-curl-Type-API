@@ -3,7 +3,8 @@ I have read number of post regarding this problem, finally i m successful in sol
 
 Step 1 : This is crul POST Type api,
 
-    curl -v -S -u devsmart:abc@123 -F'notification=         {"applicationId":"32770","schemaId":"32787","topicId":"32770","type":"USER"};type=application/json' -F file=@/home/ananya/Desktop/notification.json "http://13.126.140.6:8080/kaaAdmin/rest/api/sendNotification" | python -mjson.tool
+    curl -v -S -u devsmart:abc@123 -F'notification=                     {"applicationId":"32770","schemaId":"32787","topicId":"32770","type":"USER"};
+        type=application/json' -F file=@/home/ananya/Desktop/notification.json "http://13.126.140.6:8080/kaaAdmin/rest/api/sendNotification" | python -mjson.tool
     
     
 Step 2 :Add this library in your Module app gradle. Below library use for POST file with crul api. 
