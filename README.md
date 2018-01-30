@@ -15,6 +15,8 @@ Step 2 :Add this library in your Module app gradle. Below library use for POST f
 
 Here i goning to explain some notation which used in crul type api, F notation denote for File, so we need to create a JSON file, in my case i had created notification.json file in this file we have put {"applicationId":"32770","schemaId":"32787","topicId":"32770","type":"USER"}.
 
+-F, --form <name=content> Submit form data.
+
 
 Step 3: Here the pasring code FOR CRUL TYPE API.
 
